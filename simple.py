@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup 
 
 url = 'https://hr.wikipedia.org/wiki/Rijeka'#put your web page adrress
 response = requests.get(url) #metho Requests allows you to send HTTP/1.1 requests to the url we provided with get() method
